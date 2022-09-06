@@ -5,6 +5,7 @@ import Company from './components/pages/Company'
 import NewProject from './components/pages/NewProject'
 import Contact from './components/pages/Contact'
 import NavBar from './components/layout/NavBar'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route exact path="/newproject" element={<NewProject />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
-      <p>Footer</p>
+      <Footer />
     </Router>
   );
 }
